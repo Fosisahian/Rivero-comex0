@@ -170,7 +170,7 @@ a { color: inherit; }
 
 .hero-eyebrow-mono {
   font-family: var(--mono);
-  font-size: 1.72rem;
+  font-size: 1.10rem;
   letter-spacing: 0.18em;
   color: var(--orange);
   text-transform: uppercase;

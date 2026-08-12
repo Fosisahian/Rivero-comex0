@@ -8,6 +8,12 @@ const CONTACT_EMAIL = ''
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 
+function scrollToSection(e, id) {
+  e.preventDefault()
+  const el = document.getElementById(id)
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
 function BrandMark({ size = 40 }) {
   return (
     <svg viewBox="0 0 64 64" width={size} height={size} role="img" aria-label="ComEx">
@@ -106,10 +112,10 @@ export default function App() {
             </div>
           </div>
           <div className="nav-links nav-links-web">
-            <a className="plain" href="#modulos">Módulos</a>
-            <a className="plain" href="#cronograma">Cronograma</a>
-            <a className="plain" href="#profesor">Profesor</a>
-            <a href="#contacto" className="btn btn-orange">Inscribirme</a>
+            <a className="plain" href="#modulos" onClick={(e) => scrollToSection(e, 'modulos')}>Módulos</a>
+            <a className="plain" href="#cronograma" onClick={(e) => scrollToSection(e, 'cronograma')}>Cronograma</a>
+            <a className="plain" href="#profesor" onClick={(e) => scrollToSection(e, 'profesor')}>Profesor</a>
+            <a href="#contacto" className="btn btn-orange" onClick={(e) => scrollToSection(e, 'contacto')}>Inscribirme</a>
           </div>
         </div>
       </nav>

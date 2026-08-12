@@ -3,14 +3,13 @@ import { Globe2, Package, GraduationCap, TrendingUp, Mail, MapPin, Globe, Monito
 import { MAP_DOTS } from './mapDots'
 
 const WHATSAPP_URL = 'https://wa.me/3816068932' 
-const CONTACT_EMAIL = 'info@riverocomex.com'
-const WEBSITE_LABEL = 'WWW.Academiadeimportacion.COM'
+const WEBSITE_LABEL = 'WWW.Academiadeimportacion.site'
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 
 function BrandMark({ size = 40 }) {
   return (
-    <svg viewBox="0 0 64 64" width={size} height={size} role="img" aria-label="Rivero Comex">
+    <svg viewBox="0 0 64 64" width={size} height={size} role="img" aria-label="ComEx">
       <circle cx="32" cy="32" r="30" fill="none" stroke="#E8622A" strokeWidth="3" />
       <path d="M18 40 L32 20 L46 40" fill="none" stroke="#0B2A4D" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
       <circle cx="32" cy="20" r="4" fill="#E8622A" />
@@ -102,7 +101,7 @@ export default function App() {
             <BrandMark />
             <div className="brand-text">
               JAVIER RIVERO
-              <span>RIVERO COMEX</span>
+              <span>COMEX</span>
             </div>
           </div>
           <div className="nav-links nav-links-web">
@@ -158,7 +157,7 @@ export default function App() {
             </div>
             <div className="icon-item">
               <div className="ic-circle"><TrendingUp size={24} /></div>
-              <span>Crecemos<br />Contigo</span>
+              <span>Crecemos<br />Con vos</span>
             </div>
           </div>
         </div>
@@ -280,11 +279,10 @@ export default function App() {
 
       <section id="contacto" className="cta-final">
         <div className="container">
-          <h2>Sumate al próximo grupo de <span className="accent">Rivero Comex.</span></h2>
+          <h2>Sumate al próximo grupo de <span className="accent">ComEx.</span></h2>
           <p>Escribinos y te contamos cuándo arranca el próximo grupo y cómo se define el horario según quienes se vayan sumando.</p>
           <div className="cta-row">
             <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn-orange">Escribir por WhatsApp</a>
-            <a href={`mailto:${CONTACT_EMAIL}`} className="btn btn-outline-light">Escribir un email</a>
           </div>
         </div>
       </section>
@@ -295,10 +293,10 @@ export default function App() {
             <BrandMark size={30} />
             <div className="brand-text" style={{ fontSize: '0.9rem' }}>
               JAVIER RIVERO
-              <span>RIVERO COMEX</span>
+              <span>COMEX</span>
             </div>
           </div>
-          <div>© {new Date().getFullYear()} Rivero Comex — Formación en comercio exterior</div>
+          <div>© {new Date().getFullYear()} Javier Rivero — Formación en comercio exterior</div>
         </div>
       </footer>
     </>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Globe2, Package, GraduationCap, TrendingUp, Mail, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
+import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
 import { MAP_DOTS } from './mapDots'
 
 const WHATSAPP_URL = 'https://wa.me/3816068932' 

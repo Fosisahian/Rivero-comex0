@@ -165,7 +165,6 @@ export default function App() {
 
         <div className="hero-contact-bar">
           <div className="item"><Globe /> {WEBSITE_LABEL}</div>
-          <div className="item"><Mail /> {CONTACT_EMAIL}</div>
           <div className="item"><MapPin /> Clases 100% virtuales</div>
         </div>
       </header>

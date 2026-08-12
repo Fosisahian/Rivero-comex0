@@ -170,8 +170,8 @@ a { color: inherit; }
 
 .hero-eyebrow-mono {
   font-family: var(--mono);
-  font-size: 1.10rem;
-  letter-spacing: 0.18em;
+  font-size: 1.30rem;
+  letter-spacing: 0.10em;
   color: var(--orange);
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -318,8 +318,8 @@ section.block { padding: 90px 0; }
 
 .section-head .eyebrow {
   font-family: var(--mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.16em;
+  font-size: 1.30rem;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--orange);
   margin-bottom: 12px;
@@ -368,9 +368,9 @@ section.block { padding: 90px 0; }
 .module-day {
   display: inline-block;
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 1.30rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: #fff;
   background: var(--orange);
@@ -411,8 +411,8 @@ section.block { padding: 90px 0; }
 .schedule-table th {
   text-align: left;
   font-family: var(--mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
+  font-size: 1.30rem;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--orange-bright);
   padding: 10px 14px;
@@ -477,8 +477,8 @@ section.block { padding: 90px 0; }
 
 .teacher-role {
   font-family: var(--mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.1em;
+  font-size: 1.30rem;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--orange-bright);
   margin-bottom: 22px;

@@ -119,13 +119,17 @@ a { color: inherit; }
 
 /* ---------- Hero banner ---------- */
 
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .hero-banner {
   display: grid;
   grid-template-columns: 0.95fr 1.35fr 1fr;
-}
-
-@media (max-width: 980px) {
-  .hero-banner { grid-template-columns: 1fr; }
+  grid-template-rows: 1fr;
+  flex: 1 1 auto;
 }
 
 .hero-map-panel {

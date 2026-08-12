@@ -299,8 +299,8 @@ header {
 
 .hero-contact-bar {
   background: var(--navy-deep);
-  border-top: 1px solid rgba(255,255,255,0.15);
-  padding: 16px 28px;
+  border-top: 2px solid rgba(255,255,255,0.15);
+  padding: 20px 28px;
   display: flex;
   justify-content: center;
   gap: 36px;
@@ -308,7 +308,7 @@ header {
   color: rgba(255,255,255,0.85);
   font-family: var(--body);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.90rem;
 }
 
 .hero-contact-bar .item { display: flex; align-items: center; gap: 8px; }

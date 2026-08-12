@@ -3,13 +3,14 @@ import { Globe2, Package, GraduationCap, TrendingUp, Mail, MapPin, Globe, Monito
 import { MAP_DOTS } from './mapDots'
 
 const WHATSAPP_URL = 'https://wa.me/3816068932' 
+const CONTACT_EMAIL = 'info@riverocomex.com'
 const WEBSITE_LABEL = 'WWW.Academiadeimportacion.COM'
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=jpg&q=80&w=1400&auto=format&fit=crop'
 
 function BrandMark({ size = 40 }) {
   return (
-    <svg viewBox="0 0 64 64" width={size} height={size} role="img" aria-label="Comex">
+    <svg viewBox="0 0 64 64" width={size} height={size} role="img" aria-label="Rivero Comex">
       <circle cx="32" cy="32" r="30" fill="none" stroke="#E8622A" strokeWidth="3" />
       <path d="M18 40 L32 20 L46 40" fill="none" stroke="#0B2A4D" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
       <circle cx="32" cy="20" r="4" fill="#E8622A" />

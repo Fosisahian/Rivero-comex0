@@ -138,7 +138,7 @@ export default function App() {
             </h1>
             <div className="hero-rule" />
             <div className="hero-tagline">
-              Comex, inglés y e-commerce <span className="accent">en un solo recorrido.</span>
+              Comex, inglés & e-commerce <span className="accent">en un solo recorrido.</span>
             </div>
           </div>
 
@@ -179,7 +179,7 @@ export default function App() {
         <div className="container">
           <div className="section-head">
             <div className="eyebrow">Los tres módulos</div>
-            <h2>Qué vamos a ver <span className="accent">en cada módulo</span></h2>
+            <h2>Qué vamos a ver <span className="accent">en cada uno</span></h2>
             <p>Un recorrido semanal que combina la parte técnica de importar, el idioma para negociar y la forma de vender lo que importás.</p>
           </div>
           <div className="modules-grid">
@@ -246,8 +246,7 @@ export default function App() {
             </div>
             <div>
               <div className="section-head" style={{ marginBottom: 30 }}>
-                <div className="eyebrow">Sobre el profesor</div>
-                <h2>No es solo el que enseña <span className="accent">Comex</span></h2>
+                <h2>Sobre Javier </h2>
               </div>
               <ul className="teacher-points">
                 {teacherPoints.map((p, i) => (

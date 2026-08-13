@@ -5,8 +5,8 @@ import { MAP_DOTS } from './mapDots'
 const WHATSAPP_URL = 'https://wa.me/3816068932' 
 const WEBSITE_LABEL = 'WWW.Academiadeimportacion.site'
 const CONTACT_EMAIL = ''
-const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=jpg&q=80&w=1400&auto=format&fit=crop'
-const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=jpg&q=80&w=1400&auto=format&fit=crop'
+const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=webp&q=70&w=1400&fit=crop'
+const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=webp&q=70&w=1400&fit=crop'
 
 function scrollToSection(e, id) {
   e.preventDefault()

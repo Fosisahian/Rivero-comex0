@@ -238,7 +238,7 @@ header {
 
 .hero-ship {
   position: relative;
-  min-height: 340px;
+  min-height: 355px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -257,7 +257,7 @@ header {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 22px;
-  padding: 120px 28px;
+  padding: 1350px 28px;
 }
 
 .icon-item {

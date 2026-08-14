@@ -320,7 +320,8 @@ header {
 }
 
 .hero-contact-bar .item { display: flex; align-items: center; gap: 8px; }
-.hero-contact-bar svg { color: var(--orange-bright); width: 20px; height: 20px; }
+.hero-contact-bar svg { color: var(--orange-bright); width: 20px; height: 20px; flex-shrink: 0; }
+.hero-contact-bar svg.lucide-globe { width: 24px; height: 24px; }
 
 /* ---------- Generic sections ---------- */
 

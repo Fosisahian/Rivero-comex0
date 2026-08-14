@@ -178,7 +178,7 @@ export default function App() {
       <section className="block video-section" id="video">
         <div className="container video-wrap">
           <div className="section-head video-head">
-            <div className="eyebrow">Mensaje de Javier</div>
+            <div className="eyebrow"></div>
             <h2>Antes de sumarte, <span className="accent">mirá esto.</span></h2>
             <p>Dos minutos donde Javier te cuenta de primera mano de qué se trata el curso.</p>
           </div>
@@ -187,10 +187,10 @@ export default function App() {
               controls
               playsInline
               preload="metadata"
-              poster="/video/vsl-poster.jpg"
+              poster="public/video/vsl-poster.jpg"
               className="video-el"
             >
-              <source src="/video/vsl-javier.mp4" type="video/mp4" />
+              <source src="public/video/vsl-javier.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

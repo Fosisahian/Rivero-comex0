@@ -5,7 +5,7 @@ import { MAP_DOTS } from './mapDots'
 const WHATSAPP_URL = 'https://wa.me/3816068932'
 const WEBSITE_LABEL = 'WWW.Academiadeimportación.site'
 const CONTACT_EMAIL = ''
-const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || '/video/vsl-javier.mp4'
+const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || 'https://res.cloudinary.com/bq3omfhe/video/upload/f_auto,q_auto/v1786717644/vsl-javier.mp4'
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=webp&q=70&w=1400&fit=crop'
 const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=webp&q=70&w=1400&fit=crop'
 

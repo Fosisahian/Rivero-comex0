@@ -2,7 +2,7 @@ import React from 'react'
 import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
 import { MAP_DOTS } from './mapDots'
 
-const WHATSAPP_URL = 'https://wa.me/3816068932'
+const WHATSAPP_URL = 'https://wa.me/3815213313'
 const WEBSITE_LABEL = 'WWW.Academiadeimportación.site'
 const CONTACT_EMAIL = ''
 const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || 'https://res.cloudinary.com/bq3omfhe/video/upload/f_auto,q_auto/v1786717644/vsl-javier.mp4'
@@ -80,16 +80,16 @@ const scheduleNotes = [
 
 const teacherPoints = [
   {
-    title: 'Filtra a cada profesional',
-    desc: 'Javier selecciona personalmente a los profesionales que dictan Inglés y E-commerce, y participa como apoyo en ambas clases.',
+    title: 'PROFESIONAL',
+    desc: 'Javier es Licenciado en Comercio Exterior, especializado en Negocios Internacionales, Marketing Digital y comercio con el mercado asiático. Cuenta con un sólido dominio del idioma inglés para negocios y una marcada perspectiva global, desarrollada a través de su trayectoria formativa y de residencia en países como España, el Reino Unido y China',
   },
   {
-    title: 'Estuvo en la Feria de Cantón',
-    desc: 'Viajó a China hace unos meses y estuvo en la Feria de Cantón. Va a compartir cómo es manejarse ahí: aplicaciones, contactos y cómo moverse en el mercado chino.',
+    title: 'CHINA EXPERTO',
+    desc: 'Javier estuvo viviendo casi 2 meses en China, recorrió las 3 fases de la feria de cantón, tiene experiencia de negociar con ellos y sobre todo lo que tenes que saber para desarrollar tus contactos ahí.',
   },
   {
-    title: 'Classroom con material propio',
-    desc: 'Sube contenido al Classroom del curso, comparte herramientas clave para el COMEX y algunos contactos y proveedores de cortesía.',
+    title: 'PRESENCIA E IMPACTO DIGITAL',
+    desc: 'Cuenta con una sólida comunidad de casi 80.000 seguidores en sus redes sociales. A través de sus plataformas aporta valor constante inspirando a otros a alcanzar su máximo potencial, demostrando que la excelencia y el rigor profesional conviven en perfecto equilibrio con un estilo de vida dinámico, auténtico y global.',
   },
 ]
 

@@ -187,10 +187,10 @@ export default function App() {
               controls
               playsInline
               preload="metadata"
-              poster="public/video/vsl-poster.jpg"
+              poster="/video/vsl-poster.jpg"
               className="video-el"
             >
-              <source src="public/video/vsl-javier.mp4" type="video/mp4" />
+              <source src="/video/vsl-javier.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

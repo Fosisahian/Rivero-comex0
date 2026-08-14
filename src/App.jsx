@@ -2,7 +2,8 @@ import React from 'react'
 import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
 import { MAP_DOTS } from './mapDots'
 
-const WHATSAPP_URL = 'https://wa.me/3815213313'
+const WHATSAPP_MESSAGE = 'Hola Javier, buenas! Estoy interesado en tu Academia de Importaciones!'
+const WHATSAPP_URL = `https://wa.me/3815213313?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 const WEBSITE_LABEL = 'WWW.Academiadeimportacion.website'
 const CONTACT_EMAIL = ''
 const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || 'https://res.cloudinary.com/bq3omfhe/video/upload/f_auto,q_auto/v1786717644/vsl-javier.mp4'

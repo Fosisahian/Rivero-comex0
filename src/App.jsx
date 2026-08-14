@@ -2,9 +2,10 @@ import React from 'react'
 import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
 import { MAP_DOTS } from './mapDots'
 
-const WHATSAPP_URL = 'https://wa.me/3816068932' 
-const WEBSITE_LABEL = 'WWW.Academiadeimportacion.site'
+const WHATSAPP_URL = 'https://wa.me/3816068932'
+const WEBSITE_LABEL = 'WWW.Academiadeimportación.site'
 const CONTACT_EMAIL = ''
+const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || '/video/vsl-javier.mp4'
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=webp&q=70&w=1400&fit=crop'
 const SHIP_PHOTO = 'https://images.unsplash.com/photo-1724597500306-a4cbb7d1324e?fm=webp&q=70&w=1400&fit=crop'
 
@@ -190,7 +191,7 @@ export default function App() {
               poster="/video/vsl-poster.jpg"
               className="video-el"
             >
-              <source src="/video/vsl-javier.mp4" type="video/mp4" />
+              <source src={VIDEO_URL} type="video/mp4" />
             </video>
           </div>
         </div>

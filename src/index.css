@@ -226,6 +226,14 @@ header {
   .hero-map-panel, .hero-photo { min-height: 220px; }
 }
 
+@media (max-width: 900px) {
+  .hero-banner { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+  .hero-center { order: 1; padding: 44px 28px; min-width: 0; }
+  .hero-photo { order: 2; min-width: 0; }
+  .hero-map-panel { order: 3; min-width: 0; }
+  .hero-eyebrow-mono, .hero-tagline { overflow-wrap: break-word; }
+}
+
 .hero-strip {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -233,7 +241,7 @@ header {
 }
 
 @media (max-width: 900px) {
-  .hero-strip { grid-template-columns: 1fr; }
+  .hero-strip { grid-template-columns: minmax(0, 1fr); }
 }
 
 .hero-ship {
@@ -394,7 +402,7 @@ section.block { padding: 60px 0; }
 }
 
 @media (max-width: 900px) {
-  .modules-grid { grid-template-columns: 1fr; }
+  .modules-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 .module-card { padding: 36px 30px; border-right: 1px solid rgba(16,35,59,0.12); position: relative; }
@@ -442,7 +450,7 @@ section.block { padding: 60px 0; }
 }
 
 @media (max-width: 860px) {
-  .schedule-wrap { grid-template-columns: 1fr; }
+  .schedule-wrap { grid-template-columns: minmax(0, 1fr); }
 }
 
 .schedule-table { width: 100%; border-collapse: collapse; font-family: var(--body); }
@@ -501,7 +509,7 @@ section.block { padding: 60px 0; }
 }
 
 @media (max-width: 860px) {
-  .teacher-wrap { grid-template-columns: 1fr; }
+  .teacher-wrap { grid-template-columns: minmax(0, 1fr); }
 }
 
 .teacher-card {
@@ -553,7 +561,7 @@ section.block { padding: 60px 0; }
 .includes-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 
 @media (max-width: 900px) { .includes-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 560px) { .includes-grid { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .includes-grid { grid-template-columns: minmax(0, 1fr); } }
 
 .include-card { border: 1px solid rgba(16,35,59,0.12); padding: 26px 22px; background: #fff; }
 

@@ -3,7 +3,7 @@ import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay,
 import { MAP_DOTS } from './mapDots'
 
 const WHATSAPP_URL = 'https://wa.me/3815213313'
-const WEBSITE_LABEL = 'WWW.Academiadeimportacion.site'
+const WEBSITE_LABEL = 'WWW.Academiadeimportacion.website'
 const CONTACT_EMAIL = ''
 const VIDEO_URL = import.meta.env.VITE_VIDEO_URL || 'https://res.cloudinary.com/bq3omfhe/video/upload/f_auto,q_auto/v1786717644/vsl-javier.mp4'
 const PORT_PHOTO = 'https://images.unsplash.com/photo-1759216373394-91146ca977c7?fm=webp&q=70&w=1400&fit=crop'

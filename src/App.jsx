@@ -2,7 +2,7 @@ import React from 'react'
 import { Globe2, Package, GraduationCap, TrendingUp, MapPin, Globe, MonitorPlay, Handshake, Compass } from 'lucide-react'
 import { MAP_DOTS } from './mapDots'
 
-const WHATSAPP_MESSAGE = 'Hola Javier, buenas! Estoy interesado en tu Academia de Importaciones!'
+const WHATSAPP_MESSAGE = 'Hola! Estoy interesado en la Academia de Importaciones'
 const WHATSAPP_URL = `https://wa.me/5493813582573?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 const WEBSITE_LABEL = 'WWW.Academiadeimportacion.website'
 const CONTACT_EMAIL = ''
